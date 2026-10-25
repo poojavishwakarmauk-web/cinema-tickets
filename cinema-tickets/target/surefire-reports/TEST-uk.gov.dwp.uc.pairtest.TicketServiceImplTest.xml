@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="uk.gov.dwp.uc.pairtest.TicketServiceImplTest" time="2.376" tests="0" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="25"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/poojavishwakarma/Documents/Civil service/cinema-tickets-java/target/test-classes:/Users/poojavishwakarma/Documents/Civil service/cinema-tickets-java/target/classes:/Users/poojavishwakarma/.m2/repository/org/junit/jupiter/junit-jupiter/5.12.0/junit-jupiter-5.12.0.jar:/Users/poojavishwakarma/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.12.0/junit-jupiter-api-5.12.0.jar:/Users/poojavishwakarma/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar:/Users/poojavishwakarma/.m2/repository/org/junit/platform/junit-platform-commons/1.12.0/junit-platform-commons-1.12.0.jar:/Users/poojavishwakarma/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/poojavishwakarma/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.12.0/junit-jupiter-params-5.12.0.jar:/Users/poojavishwakarma/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.12.0/junit-jupiter-engine-5.12.0.jar:/Users/poojavishwakarma/.m2/repository/org/junit/platform/junit-platform-engine/1.12.0/junit-platform-engine-1.12.0.jar:/Users/poojavishwakarma/.m2/repository/org/mockito/mockito-core/5.14.2/mockito-core-5.14.2.jar:/Users/poojavishwakarma/.m2/repository/net/bytebuddy/byte-buddy/1.15.4/byte-buddy-1.15.4.jar:/Users/poojavishwakarma/.m2/repository/net/bytebuddy/byte-buddy-agent/1.15.4/byte-buddy-agent-1.15.4.jar:/Users/poojavishwakarma/.m2/repository/org/objenesis/objenesis/3.3/objenesis-3.3.jar:"/>
+    <property name="java.vm.vendor" value="Eclipse Adoptium"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://adoptium.net/"/>
+    <property name="user.timezone" value="Asia/Kolkata"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="25"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="GB"/>
+    <property name="sun.boot.library.path" value="/Users/poojavishwakarma/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.macosx.x86_64_25.0.4.v20260826-0822/jre/lib"/>
+    <property name="sun.java.command" value="/Users/poojavishwakarma/Documents/Civil service/cinema-tickets-java/target/surefire/surefirebooter-20261026010251244_3.jar /Users/poojavishwakarma/Documents/Civil service/cinema-tickets-java/target/surefire 2026-10-26T01-02-49_605-jvmRun1 surefire-20261026010251244_1tmp surefire_0-20261026010251244_2tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/poojavishwakarma/Documents/Civil service/cinema-tickets-java/target/test-classes:/Users/poojavishwakarma/Documents/Civil service/cinema-tickets-java/target/classes:/Users/poojavishwakarma/.m2/repository/org/junit/jupiter/junit-jupiter/5.12.0/junit-jupiter-5.12.0.jar:/Users/poojavishwakarma/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.12.0/junit-jupiter-api-5.12.0.jar:/Users/poojavishwakarma/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar:/Users/poojavishwakarma/.m2/repository/org/junit/platform/junit-platform-commons/1.12.0/junit-platform-commons-1.12.0.jar:/Users/poojavishwakarma/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/poojavishwakarma/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.12.0/junit-jupiter-params-5.12.0.jar:/Users/poojavishwakarma/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.12.0/junit-jupiter-engine-5.12.0.jar:/Users/poojavishwakarma/.m2/repository/org/junit/platform/junit-platform-engine/1.12.0/junit-platform-engine-1.12.0.jar:/Users/poojavishwakarma/.m2/repository/org/mockito/mockito-core/5.14.2/mockito-core-5.14.2.jar:/Users/poojavishwakarma/.m2/repository/net/bytebuddy/byte-buddy/1.15.4/byte-buddy-1.15.4.jar:/Users/poojavishwakarma/.m2/repository/net/bytebuddy/byte-buddy-agent/1.15.4/byte-buddy-agent-1.15.4.jar:/Users/poojavishwakarma/.m2/repository/org/objenesis/objenesis/3.3/objenesis-3.3.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/poojavishwakarma"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2026-08-18"/>
+    <property name="java.home" value="/Users/poojavishwakarma/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.macosx.x86_64_25.0.4.v20260826-0822/jre"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/poojavishwakarma/Documents/Civil service/cinema-tickets-java"/>
+    <property name="style.color" value="always"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="apple.awt.application.name" value="ForkedBooter"/>
+    <property name="surefire.real.class.path" value="/Users/poojavishwakarma/Documents/Civil service/cinema-tickets-java/target/surefire/surefirebooter-20261026010251244_3.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="25.0.4.1+1-LTS"/>
+    <property name="user.name" value="poojavishwakarma"/>
+    <property name="stdout.encoding" value="UTF-8"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="15.5"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Temurin-25.0.4.1+1"/>
+    <property name="localRepository" value="/Users/poojavishwakarma/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
+    <property name="java.io.tmpdir" value="/var/folders/p3/tqx3lf5x6bgg858scg3f46vr0000gn/T/"/>
+    <property name="java.version" value="25.0.4.1"/>
+    <property name="user.dir" value="/Users/poojavishwakarma/Documents/Civil service/cinema-tickets-java"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/poojavishwakarma/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="UTF-8"/>
+    <property name="java.vendor" value="Eclipse Adoptium"/>
+    <property name="java.vm.version" value="25.0.4.1+1-LTS"/>
+    <property name="stdin.encoding" value="UTF-8"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.class.version" value="69.0"/>
+  </properties>
+  <testcase name="infantsCountTowardsTheTwentyFiveTicketLimit" classname="business rule violations" time="2.136">
+    <system-err><![CDATA[Mockito is currently self-attaching to enable the inline-mock-maker. This will no longer work in future releases of the JDK. Please add Mockito as an agent to your build what is described in Mockito's documentation: https://javadoc.io/doc/org.mockito/mockito-core/latest/org/mockito/Mockito.html#0.3
+WARNING: A Java agent has been loaded dynamically (/Users/poojavishwakarma/.m2/repository/net/bytebuddy/byte-buddy-agent/1.15.4/byte-buddy-agent-1.15.4.jar)
+WARNING: If a serviceability tool is in use, please run with -XX:+EnableDynamicAgentLoading to hide this warning
+WARNING: If a serviceability tool is not in use, please run with -Djdk.instrument.traceUsage for more information
+WARNING: Dynamic loading of agents will be disallowed by default in a future release
+]]></system-err>
+  </testcase>
+  <testcase name="infantWithoutAdultIsRejected" classname="business rule violations" time="0.002"/>
+  <testcase name="moreInfantsThanAdultsIsRejected" classname="business rule violations" time="0.003"/>
+  <testcase name="childWithoutAdultIsRejected" classname="business rule violations" time="0.002"/>
+  <testcase name="rejectedPurchaseNeverTakesPaymentOrReservesSeats" classname="business rule violations" time="0.018"/>
+  <testcase name="twentySixAdultsInOneRequestIsRejected" classname="business rule violations" time="0.002"/>
+  <testcase name="moreThanTwentyFiveTicketsInTotalIsRejected" classname="business rule violations" time="0.001"/>
+  <testcase name="childAndInfantWithoutAdultIsRejected" classname="business rule violations" time="0.002"/>
+  <testcase name="nullRequestElementIsRejected" classname="invalid requests" time="0.004"/>
+  <testcase name="noRequestsIsRejected" classname="invalid requests" time="0.003"/>
+  <testcase name="nullTicketTypeIsRejected" classname="invalid requests" time="0.001"/>
+  <testcase name="nullRequestArrayIsRejected" classname="invalid requests" time="0.012"/>
+  <testcase name="zeroTicketsInARequestIsRejected" classname="invalid requests" time="0.005"/>
+  <testcase name="hugeSingleRequestIsRejectedWithoutOverflow" classname="invalid requests" time="0.006"/>
+  <testcase name="negativeTicketsInARequestIsRejected" classname="invalid requests" time="0.005"/>
+  <testcase name="negativeAccountIdIsRejected" classname="invalid account" time="0.003"/>
+  <testcase name="nullAccountIdIsRejected" classname="invalid account" time="0.003"/>
+  <testcase name="zeroAccountIdIsRejected" classname="invalid account" time="0.004"/>
+  <testcase name="infantsEqualToAdultsIsAllowed" classname="valid purchases" time="0.011"/>
+  <testcase name="exactlyTwentyFiveTicketsIsAllowed" classname="valid purchases" time="0.005"/>
+  <testcase name="singleAdultPaysFullPriceAndGetsASeat" classname="valid purchases" time="0.003"/>
+  <testcase name="multipleRequestsOfTheSameTypeAreCombined" classname="valid purchases" time="0.005"/>
+  <testcase name="infantsPayNothingAndAreNotAllocatedSeats" classname="valid purchases" time="0.002"/>
+  <testcase name="mixedPurchaseCalculatesAmountAndSeats" classname="valid purchases" time="0.006"/>
+  <testcase name="adultAndChildPayForBothAndGetTwoSeats" classname="valid purchases" time="0.004"/>
+</testsuite>
